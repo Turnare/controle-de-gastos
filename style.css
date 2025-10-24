@@ -1,0 +1,82 @@
+/*css reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    display:flexbox;
+    border: 2px solid rgb(11, 178, 230);
+    place-items: center;
+    border-radius: 20px;
+    
+    
+}
+main h1{
+    color:rgb(0, 132, 255);
+    margin: 20px;
+
+}
+main form{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+main form input{
+    margin-top: 10px;
+    height: 30px;
+    width: 90%;
+    border: 2px solid rgb(11, 178, 230);
+    padding-left:10px ;
+    margin-left: 10px;
+    -webkit: none;
+
+    
+}
+main form select{
+    margin-top: 10px;
+    width: 90%;
+    padding: 5px;
+    border: 2px solid rgb(11, 178, 230);
+    padding-left:10px ;
+    margin-left: 10px;
+    
+    
+}
+main form button{
+    width: 90%;
+    height: 30px;
+    padding-left:10px ;
+    place-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    
+    border: none;
+    font-weight: bold;
+    background-color: rgb(11, 178, 230);
+    color: aliceblue;
+}
+main p {
+    display:flexbox;
+    padding: 5px;
+    width: 90%;
+    margin-top: 5px;
+    margin-left: 10px;
+    border: 2px solid rgb(11, 178, 230);
+    background-color: rgb(80, 204, 235);
+}
+#Total{
+    background-color: rgb(11, 178, 230);
+    margin-bottom: 20px;
+    color: white;
+    font-weight: bold;
+}
